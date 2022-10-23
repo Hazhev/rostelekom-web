@@ -1,0 +1,80 @@
+.container-app__logo-img{
+    width: 130px;
+}
+
+.container-app__gradient{
+    width: 100%;
+    height: 695px;
+    background: linear-gradient(149.55deg, #EA5225 0%, #563F92 100%);
+    border-radius: 0 0 100px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 61px;
+    margin-bottom: 70px;
+}
+
+.container-app__logo-img{
+    margin-bottom: 50px;
+}
+
+.container-app__form{
+    width: 345px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.container-app__form input::placeholder {color: rgba(0, 0, 0, 0.3);}
+
+.container-app__form input{
+    width: 345px;
+    height: 50px;
+    padding-left: 16px;
+    background: #FFFFFF;
+    border-radius: 14px;
+
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 13px;
+}
+
+.input-img{
+    position: absolute;
+    right: 13px;
+}
+
+.container-app__button{
+    width: 195px;
+    height: 60px;
+    background: linear-gradient(264.59deg, #CD5552 0%, #834571 100%);
+    border: 1px solid #D3D3D3;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    position: relative;
+    bottom: -30px;
+
+    color: #FFFFFF;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.container-app__text{
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 13px;
+    text-align: center;
+    color: #353535;
+
+    height: 80px;
+}

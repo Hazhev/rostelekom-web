@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  max-width: 390px;
+  background-color: #F1F1F1;
+  min-height: 100vh;
+  height: 100%;
+  margin: 0 auto;
+}
